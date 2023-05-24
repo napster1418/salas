@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\AZ.NotificacionMicroservice.Domain\AZ.NotificacionMicroservice.Domain.csproj" />
+    <ProjectReference Include="..\AZ.NotificacionMicroservice.Entities\AZ.NotificacionMicroservice.Entities.csproj" />
+    <ProjectReference Include="..\AZ.NotificacionMicroservice.Exceptions\AZ.NotificacionMicroservice.Exceptions.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
